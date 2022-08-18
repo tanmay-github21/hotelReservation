@@ -1,0 +1,9 @@
+public with sharing class InvocableMethod {
+    @InvocableMethod(label='Get Hotels' description='Gets Rooms based on list of hotels' category='Room__c')
+	public list<Room__c> returnRooms(List<String> recordIds)
+	{
+	    return [Select Id, Name,isAvailable__c,price__c from Room__c WHERE ID IN: recordIds];
+		
+	}	
+
+}

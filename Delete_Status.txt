@@ -1,0 +1,12 @@
+
+=== Batch Status
+
+jobId:                   750N000000CYF9TIAX
+state:                   Completed
+createdDate:             2022-08-13T15:18:44.000Z
+systemModstamp:          2022-08-13T15:19:08.000Z
+numberRecordsProcessed:  595
+numberRecordsFailed:     0
+totalProcessingTime:     18626
+apiActiveProcessingTime: 6423
+apexProcessingTime:      0

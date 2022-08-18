@@ -1,0 +1,2 @@
+Check batch #1’s status with the command: 
+sfdx force:data:bulk:status -i 750N000000CYF78IAH -b 751N0000009MzFDIA0
