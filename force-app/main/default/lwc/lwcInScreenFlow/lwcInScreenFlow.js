@@ -1,3 +1,5 @@
-import { LightningElement } from 'lwc';
+import { LightningElement, api, track} from 'lwc';
 
-export default class LwcInScreenFlow extends LightningElement {}
+export default class LwcInScreenFlow extends LightningElement {
+    @api flowValue;
+}
